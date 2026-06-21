@@ -31,4 +31,10 @@ stane-tech/
 
 - **Frontend** : Configuration Next.js avec TypeScript, Tailwind CSS, et un exemple d'appel API vers le backend.
 - **Backend** : Configuration Express avec connexion MongoDB (Mongoose), gestion des variables d'environnement (dotenv), et support CORS.
+  - **Authentification** : JWT (Register, Login, Reset Password, Update Details/Password).
+  - **Produits** : CRUD complet pour les produits digitaux.
+  - **Commandes** : Système de création et gestion de commandes.
+  - **Paiement** : Module de paiement simulé (Money Flow + Fallback) et endpoint webhook.
+  - **Sécurité** : Middlewares d'authentification et de gestion des rôles (Admin/User).
+  - **Documentation** : Voir `backend/API_DOCUMENTATION.md` pour les détails des endpoints.
 - **Connexion** : Configuration de base pour la communication entre le frontend et le backend.
